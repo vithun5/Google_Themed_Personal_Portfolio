@@ -358,6 +358,7 @@ export const sideBarInfo = {
     {
       title: "Google Portfolio Link",
       icon: AiFillGoogleCircle,
+      src: "https://github.com/vithun5/Google_Themed_Personal_Portfolio",
     },
     {
       icon: AiFillTwitterCircle,
