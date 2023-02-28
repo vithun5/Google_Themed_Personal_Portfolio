@@ -11,7 +11,7 @@ const Projects = () => {
       <ProjectItems>
         {ProjectData.map(({ title, image, description, link }) => {
           return (
-            <ProjectDetails>
+            <ProjectDetails key={title}>
               <h3>{title}</h3>
               <Image src={image} alt="image" width={400} height={200} />
               <ul>

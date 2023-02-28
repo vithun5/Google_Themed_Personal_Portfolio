@@ -10,7 +10,7 @@ import { sideBarInfo } from "../../constants/constants";
 import { AiOutlineDownload } from "react-icons/ai";
 import { useContext } from "react";
 import { ThemeContext } from "styled-components";
-const sideBar = () => {
+const SideBar = () => {
   const { darkMode } = useContext(ThemeContext);
 
   return (
@@ -49,4 +49,4 @@ const sideBar = () => {
   );
 };
 
-export default sideBar;
+export default SideBar;

@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import { MapContainer } from "../styles/Map.styled";
 import { ThemeContext } from "./_app";
-const map = () => {
-  const darkMode = useContext(ThemeContext);
+const Map = () => {
+  const {darkMode} = useContext(ThemeContext);
   return (
     <MapContainer>
       <iframe
@@ -21,4 +21,4 @@ const map = () => {
   );
 };
 
-export default map;
+export default Map;
