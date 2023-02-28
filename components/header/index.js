@@ -1,4 +1,4 @@
-import NavBar from "./Navbar";
+import NavBar from "./NavBar.js";
 import TopSearch from "./TopSearch";
 import { HeaderContainer } from "./Header.styled";
 
