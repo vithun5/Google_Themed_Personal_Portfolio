@@ -42,7 +42,7 @@ export const ProjectDetails = styled.div`
   border-radius: 0.8rem;
   display: flex;
   flex-direction: column;
-  width: min-content;
+  width: initial;
   gap: 1rem;
   background: ${({ theme }) => theme.colors.contentBackground};
   @media (hover: hover) {
@@ -93,5 +93,6 @@ export const ProjectDetails = styled.div`
         width: initial;
       
       }
+    
   
 `;
