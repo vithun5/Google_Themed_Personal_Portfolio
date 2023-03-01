@@ -297,7 +297,7 @@ export const ProjectData = [
   },
   {
     title: "Github Finder",
-    image: "/assets/githubFinder.png",
+    image: "/assets/githubFinder.PNG",
     description: [
       "It is a simple Github user finder where user can search for Github profile and view it .",
     ],
@@ -358,7 +358,7 @@ export const sideBarInfo = {
     {
       title: "Google Portfolio Link",
       icon: AiFillGoogleCircle,
-      src: "https://github.com/vithun5/Google_Themed_Personal_Portfolio",
+      src: "https://google-themed-personal-portfolio-vithun5.vercel.app/",
     },
     {
       icon: AiFillTwitterCircle,
