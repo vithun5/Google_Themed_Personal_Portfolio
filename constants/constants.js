@@ -263,7 +263,7 @@ export const skillsData = {
 export const ProjectData = [
   {
     title: "Social media clone Application ",
-    image: "/assets/Socialclone.PNG",
+    image: "/assets/postit.PNG",
     description: [
       "Designed and developed a Social Media Clone that can be used by users",
       "The User can login to his/her account using their credentials",
@@ -276,7 +276,7 @@ export const ProjectData = [
   },
   {
     title: "Blogging Application",
-    image: "/assets/Blogger.PNG",
+    image: "/assets/bloggerapp.PNG",
     description: [
       "Designed and developed a simple Blog posting application.",
       "The user can add a blog and edit it.",
