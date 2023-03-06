@@ -24,13 +24,12 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     SetIsLoading(true);
-
     emailjs
       .sendForm(
         process.env.NEXT_PUBLIC_SERVICE_ID,
         process.env.NEXT_PUBLIC_TEMPLATE_ID,
         form.current,
-        process.env.NEXT_PUBLIC_KEY
+        process.env.NEXT_PUBLIC_UNIQUE_KEY
       )
       .then(
         (result) => {
